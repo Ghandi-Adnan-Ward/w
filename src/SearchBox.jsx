@@ -18,17 +18,17 @@ function SearchBox({ updateInfo }) {
                     units: 'metric'
                 }
             });
-            let jsonResponse = response.data;
-            console.log(jsonResponse);
+            let res = response.data;
+            console.log(res);
 
             let result = {
                 city: city,
-                temp: jsonResponse.main.temp,
-                tempMin: jsonResponse.main.temp_min,
-                tempMax: jsonResponse.main.temp_max,
-                humidity: jsonResponse.main.humidity,
-                feelsLike: jsonResponse.main.feels_like,
-                weather: jsonResponse.weather[0].main,
+                temp: res.main.temp,
+                tempMin: res.main.temp_min,
+                tempMax: res.main.temp_max,
+                humidity: res.main.humidity,
+                feelsLike: res.main.feels_like,
+                weather: res.weather[0].main,
             };
 
             console.log(result);

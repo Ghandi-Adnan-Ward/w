@@ -4,13 +4,13 @@ import { useState } from "react";
 
 function WeatherApp() {
     const [weatherInfo, setWeatherInfo] = useState({
-        city: "Multan",
-        feelsLike: 297.27,
-        temp: 297.81,
-        tempMax: 297.81,
-        tempMin: 297.81,
-        humidity: 36,
-        weather: "Clear",
+        city: "",
+        feelsLike: 0,
+        temp: 0,
+        tempMax: 0,
+        tempMin: 0,
+        humidity: 0,
+        weather: " ",
     });
     
     let updateInfo = (newInfo) => {
