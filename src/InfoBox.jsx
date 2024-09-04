@@ -15,8 +15,8 @@ function InfoBox({info}) {
     let RAIN_URL= "https://images.unsplash.com/photo-1583054994298-cc68ddaca862?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D";
   
   return (
-    <div className='card'>
-    <Card sx={{ maxWidth: 500 }}>
+    <div className='card' >
+    <Card>
       <CardMedia
         sx={{ height: 140 }}
         image={info.humidity > 70 ? RAIN_URL : info.temp > 10 ? HOT_URL  : COLD_URL  }

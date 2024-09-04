@@ -7,10 +7,8 @@ function App() {
   
 
   return (
-    <div>
-      <WeatherApp/>
-    </div>
-  )
+       <WeatherApp/>
+   )
 }
 
 export default App

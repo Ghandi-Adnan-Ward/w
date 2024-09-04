@@ -22,7 +22,7 @@ a:hover {
 
 body {
   place-items: center;
-  min-width: 320px;
+  min-width: 200px;
   min-height: 100vh;
 }
 
@@ -74,10 +74,7 @@ button:focus-visible {
   h1 {
     font-size: 2.5em;
   }
-  .logo {
-    height: 4em;
-    padding: 1em;
-  }
+   
   .card {
     padding: 1.5em;
   }
@@ -90,12 +87,9 @@ button:focus-visible {
   h1 {
     font-size: 2em;
   }
-  .logo {
-    height: 3em;
-    padding: 0.5em;
-  }
+   
   .card {
-    padding: 1em;
+    padding: 0.1em;
   }
   button {
     padding: 0.4em 0.8em;

@@ -19,9 +19,9 @@ function WeatherApp() {
     
   return (
     <div>
-    <h2>WeatherApp By devAqsa</h2>
+    <h2 style={{fontSize:'48px'}}>Weather App</h2>
     <SearchBox updateInfo={updateInfo}/> 
-    <InfoBox info={weatherInfo}/>
+    <InfoBox  info={weatherInfo}/>
     </div>
   )
 }
